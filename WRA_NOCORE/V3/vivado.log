@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Nov 24 17:59:41 2019
+# Process ID: 6416
+# Current directory: E:/vivado_workspace/20190930_test/WRA_NOCORE/V3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8968 E:\vivado_workspace\20190930_test\WRA_NOCORE\V3\V3.xpr
+# Log file: E:/vivado_workspace/20190930_test/WRA_NOCORE/V3/vivado.log
+# Journal file: E:/vivado_workspace/20190930_test/WRA_NOCORE/V3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vivado_workspace/20190930_test/WRA_NOCORE/V3/V3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2019.1/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'blk_mem_gfgt' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'blk_mem_gfgt' (customized with software release 2018.1) has a different revision in the IP Catalog. * Current project part 'xc7a100tcsg324-1' and the part 'xc7a200tfbg484-1' used to customize the IP 'blk_mem_gfgt' do not match.
+WARNING: [IP_Flow 19-2162] IP 'block_ram' is locked:
+* Current project part 'xc7a100tcsg324-1' and the part 'xc7a200tfbg484-1' used to customize the IP 'block_ram' do not match.
+WARNING: [IP_Flow 19-2162] IP 'dist_mem_gen_2' is locked:
+* Current project part 'xc7a100tcsg324-1' and the part 'xc7a200tfbg484-1' used to customize the IP 'dist_mem_gen_2' do not match.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* Current project part 'xc7a100tcsg324-1' and the part 'xc7a200tfbg484-1' used to customize the IP 'clk_wiz_0' do not match.
+WARNING: [IP_Flow 19-2162] IP 'dist_mem_gen_1' is locked:
+* IP definition 'Distributed Memory Generator (8.0)' for IP 'dist_mem_gen_1' (customized with software release 2018.1) has a different revision in the IP Catalog. * Current project part 'xc7a100tcsg324-1' and the part 'xc7a200tfbg484-1' used to customize the IP 'dist_mem_gen_1' do not match.
+WARNING: [IP_Flow 19-2162] IP 'dist_mem_gen_0' is locked:
+* Current project part 'xc7a100tcsg324-1' and the part 'xc7a200tfbg484-1' used to customize the IP 'dist_mem_gen_0' do not match.
+WARNING: [IP_Flow 19-2162] IP 'blk_mem' is locked:
+* IP definition 'Block Memory Generator (8.4)' for IP 'blk_mem' (customized with software release 2018.1) has a different revision in the IP Catalog. * Current project part 'xc7a100tcsg324-1' and the part 'xc7a200tfbg484-1' used to customize the IP 'blk_mem' do not match.
+WARNING: [IP_Flow 19-2162] IP 'mult' is locked:
+* IP definition 'Multiplier (12.0)' for IP 'mult' (customized with software release 2018.1) has a different revision in the IP Catalog. * Current project part 'xc7a100tcsg324-1' and the part 'xc7a200tfbg484-1' used to customize the IP 'mult' do not match.
+WARNING: [IP_Flow 19-2162] IP 'instrmemory' is locked:
+* IP definition 'Distributed Memory Generator (8.0)' for IP 'instrmemory' (customized with software release 2018.1) has a different revision in the IP Catalog. * Current project part 'xc7a100tcsg324-1' and the part 'xc7a200tfbg484-1' used to customize the IP 'instrmemory' do not match.
+WARNING: [IP_Flow 19-2162] IP 'DataFIFO' is locked:
+* IP definition 'FIFO Generator (13.2)' for IP 'DataFIFO' (customized with software release 2018.1) has a different revision in the IP Catalog. * Current project part 'xc7a100tcsg324-1' and the part 'xc7a200tfbg484-1' used to customize the IP 'DataFIFO' do not match.
+WARNING: [IP_Flow 19-2162] IP 'FilterRam' is locked:
+* IP definition 'Distributed Memory Generator (8.0)' for IP 'FilterRam' (customized with software release 2018.1) has a different revision in the IP Catalog. * Current project part 'xc7a100tcsg324-1' and the part 'xc7a200tfbg484-1' used to customize the IP 'FilterRam' do not match.
+INFO: [Common 17-344] 'open_project' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 24 18:01:24 2019...

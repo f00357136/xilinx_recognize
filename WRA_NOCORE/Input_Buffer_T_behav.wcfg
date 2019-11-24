@@ -1,0 +1,1198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Input_Buffer_T_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Input_Buffer_T" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="83873666667fs"></ZoomStartTime>
+      <ZoomEndTime time="84451666668fs"></ZoomEndTime>
+      <Cursor1Time time="83970000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="249"></NameColumnWidth>
+      <ValueColumnWidth column_width="163"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/Input_Buffer_T/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_bt_start" type="array">
+      <obj_property name="ElementShortName">a_bt_start[8:0]</obj_property>
+      <obj_property name="ObjectShortName">a_bt_start[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group116" type="group">
+      <obj_property name="label">OPs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/stride_op" type="logic">
+         <obj_property name="ElementShortName">stride_op</obj_property>
+         <obj_property name="ObjectShortName">stride_op</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/kernelsize_op" type="logic">
+         <obj_property name="ElementShortName">kernelsize_op</obj_property>
+         <obj_property name="ObjectShortName">kernelsize_op</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/inputbstart_op" type="logic">
+         <obj_property name="ElementShortName">inputbstart_op</obj_property>
+         <obj_property name="ObjectShortName">inputbstart_op</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/numslideH_op" type="array">
+         <obj_property name="ElementShortName">numslideH_op[8:0]</obj_property>
+         <obj_property name="ObjectShortName">numslideH_op[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/numslideV_op" type="array">
+         <obj_property name="ElementShortName">numslideV_op[4:0]</obj_property>
+         <obj_property name="ObjectShortName">numslideV_op[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/numswitchH_op" type="array">
+         <obj_property name="ElementShortName">numswitchH_op[4:0]</obj_property>
+         <obj_property name="ObjectShortName">numswitchH_op[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/NInch_D_PInch_op" type="array">
+         <obj_property name="ElementShortName">NInch_D_PInch_op[4:0]</obj_property>
+         <obj_property name="ObjectShortName">NInch_D_PInch_op[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/NOuch_D_POuch_op" type="array">
+         <obj_property name="ElementShortName">NOuch_D_POuch_op[4:0]</obj_property>
+         <obj_property name="ObjectShortName">NOuch_D_POuch_op[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group280" type="group">
+      <obj_property name="label">InputBuffer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/d_ram" type="array">
+         <obj_property name="ElementShortName">d_ram[511:0]</obj_property>
+         <obj_property name="ObjectShortName">d_ram[511:0]</obj_property>
+         <obj_property name="Reversed">false</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/current_state" type="array">
+         <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/addr_wr" type="array">
+         <obj_property name="ElementShortName">addr_wr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_wr[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/jumpaddr_cnt" type="array">
+         <obj_property name="ElementShortName">jumpaddr_cnt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">jumpaddr_cnt[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/readaddr_cnt" type="array">
+         <obj_property name="ElementShortName">readaddr_cnt[8:0]</obj_property>
+         <obj_property name="ObjectShortName">readaddr_cnt[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/spoindex_cnt" type="array">
+         <obj_property name="ElementShortName">spoindex_cnt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">spoindex_cnt[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/inputb_spo" type="array">
+         <obj_property name="ElementShortName">inputb_spo[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">inputb_spo[2047:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Reversed">false</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/ex_addr" type="array">
+         <obj_property name="ElementShortName">ex_addr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_addr[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/a" type="array">
+         <obj_property name="ElementShortName">a[11:0]</obj_property>
+         <obj_property name="ObjectShortName">a[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group154" type="group">
+      <obj_property name="label">Tran1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/input16_8bit" type="array">
+         <obj_property name="ElementShortName">input16_8bit[127:0]</obj_property>
+         <obj_property name="ObjectShortName">input16_8bit[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/output16_8bit" type="array">
+         <obj_property name="ElementShortName">output16_8bit[127:0]</obj_property>
+         <obj_property name="ObjectShortName">output16_8bit[127:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group191" type="group">
+      <obj_property name="label">Tran2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans16/input16_8bit" type="array">
+         <obj_property name="ElementShortName">input16_8bit[127:0]</obj_property>
+         <obj_property name="ObjectShortName">input16_8bit[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans16/output16_8bit" type="array">
+         <obj_property name="ElementShortName">output16_8bit[127:0]</obj_property>
+         <obj_property name="ObjectShortName">output16_8bit[127:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group117" type="group">
+      <obj_property name="label">Ctl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Save_Done" type="logic">
+         <obj_property name="ElementShortName">BtInB_Save_Done</obj_property>
+         <obj_property name="ObjectShortName">BtInB_Save_Done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/en_accord_inputbstart" type="logic">
+         <obj_property name="ElementShortName">en_accord_inputbstart</obj_property>
+         <obj_property name="ObjectShortName">en_accord_inputbstart</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Layer_Finish" type="logic">
+         <obj_property name="ElementShortName">Layer_Finish</obj_property>
+         <obj_property name="ObjectShortName">Layer_Finish</obj_property>
+      </wvobject>
+      <wvobject fp_name="group786" type="group">
+         <obj_property name="label">FSM</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/current_state" type="array">
+            <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+            <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/next_state" type="array">
+            <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+            <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/current_state_d" type="array">
+            <obj_property name="ElementShortName">current_state_d[3:0]</obj_property>
+            <obj_property name="ObjectShortName">current_state_d[3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group985" type="group">
+         <obj_property name="label">Bt</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/we_Bt" type="logic">
+            <obj_property name="ElementShortName">we_Bt</obj_property>
+            <obj_property name="ObjectShortName">we_Bt</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_Bt" type="array">
+            <obj_property name="ElementShortName">a_Bt[8:0]</obj_property>
+            <obj_property name="ObjectShortName">a_Bt[8:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_bt_switch" type="array">
+            <obj_property name="ElementShortName">a_bt_switch[8:0]</obj_property>
+            <obj_property name="ObjectShortName">a_bt_switch[8:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_bt_start_en" type="logic">
+            <obj_property name="ElementShortName">a_bt_start_en</obj_property>
+            <obj_property name="ObjectShortName">a_bt_start_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_bt_start" type="array">
+            <obj_property name="ElementShortName">a_bt_start[8:0]</obj_property>
+            <obj_property name="ObjectShortName">a_bt_start[8:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1004" type="group">
+         <obj_property name="label">Gt</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_Gt" type="array">
+            <obj_property name="ElementShortName">a_Gt[15:0]</obj_property>
+            <obj_property name="ObjectShortName">a_Gt[15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group852" type="group">
+         <obj_property name="label">CTL_CNT</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/NInch_D_PInch_cnt" type="array">
+            <obj_property name="ElementShortName">NInch_D_PInch_cnt[6:0]</obj_property>
+            <obj_property name="ObjectShortName">NInch_D_PInch_cnt[6:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#D2691E</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/Nouch_D_Pouch_cnt" type="array">
+            <obj_property name="ElementShortName">Nouch_D_Pouch_cnt[6:0]</obj_property>
+            <obj_property name="ObjectShortName">Nouch_D_Pouch_cnt[6:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#D2691E</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/NslideH_cnt" type="array">
+            <obj_property name="ElementShortName">NslideH_cnt[8:0]</obj_property>
+            <obj_property name="ObjectShortName">NslideH_cnt[8:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#D2691E</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/NslideV_cnt" type="array">
+            <obj_property name="ElementShortName">NslideV_cnt[4:0]</obj_property>
+            <obj_property name="ObjectShortName">NslideV_cnt[4:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#D2691E</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group851" type="group">
+      <obj_property name="label">BtInB_Buffer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/wea0" type="logic">
+         <obj_property name="ElementShortName">wea0</obj_property>
+         <obj_property name="ObjectShortName">wea0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/wea1" type="logic">
+         <obj_property name="ElementShortName">wea1</obj_property>
+         <obj_property name="ObjectShortName">wea1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/wea2" type="logic">
+         <obj_property name="ElementShortName">wea2</obj_property>
+         <obj_property name="ObjectShortName">wea2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/wea3" type="logic">
+         <obj_property name="ElementShortName">wea3</obj_property>
+         <obj_property name="ObjectShortName">wea3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/addra0" type="array">
+         <obj_property name="ElementShortName">addra0[6:0]</obj_property>
+         <obj_property name="ObjectShortName">addra0[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/addra1" type="array">
+         <obj_property name="ElementShortName">addra1[6:0]</obj_property>
+         <obj_property name="ObjectShortName">addra1[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/addra2" type="array">
+         <obj_property name="ElementShortName">addra2[6:0]</obj_property>
+         <obj_property name="ObjectShortName">addra2[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/addra3" type="array">
+         <obj_property name="ElementShortName">addra3[6:0]</obj_property>
+         <obj_property name="ObjectShortName">addra3[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/dina0" type="array">
+         <obj_property name="ElementShortName">dina0[511:0]</obj_property>
+         <obj_property name="ObjectShortName">dina0[511:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="Reversed">false</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/dina1" type="array">
+         <obj_property name="ElementShortName">dina1[511:0]</obj_property>
+         <obj_property name="ObjectShortName">dina1[511:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/dina2" type="array">
+         <obj_property name="ElementShortName">dina2[511:0]</obj_property>
+         <obj_property name="ObjectShortName">dina2[511:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/dina3" type="array">
+         <obj_property name="ElementShortName">dina3[511:0]</obj_property>
+         <obj_property name="ObjectShortName">dina3[511:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/douta0" type="array">
+         <obj_property name="ElementShortName">douta0[511:0]</obj_property>
+         <obj_property name="ObjectShortName">douta0[511:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/douta1" type="array">
+         <obj_property name="ElementShortName">douta1[511:0]</obj_property>
+         <obj_property name="ObjectShortName">douta1[511:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/douta2" type="array">
+         <obj_property name="ElementShortName">douta2[511:0]</obj_property>
+         <obj_property name="ObjectShortName">douta2[511:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/douta3" type="array">
+         <obj_property name="ElementShortName">douta3[511:0]</obj_property>
+         <obj_property name="ObjectShortName">douta3[511:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1004" type="group">
+      <obj_property name="label">Gt</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_Gt" type="array">
+         <obj_property name="ElementShortName">a_Gt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">a_Gt[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_Bt" type="array">
+      <obj_property name="ElementShortName">a_Bt[8:0]</obj_property>
+      <obj_property name="ObjectShortName">a_Bt[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="group201" type="group">
+      <obj_property name="label">GtFG_Ram_spo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo1" type="array">
+         <obj_property name="ElementShortName">spo1[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo1[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo2" type="array">
+         <obj_property name="ElementShortName">spo2[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo2[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo3" type="array">
+         <obj_property name="ElementShortName">spo3[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo3[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo4" type="array">
+         <obj_property name="ElementShortName">spo4[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo4[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo5" type="array">
+         <obj_property name="ElementShortName">spo5[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo5[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo6" type="array">
+         <obj_property name="ElementShortName">spo6[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo6[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo7" type="array">
+         <obj_property name="ElementShortName">spo7[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo7[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo8" type="array">
+         <obj_property name="ElementShortName">spo8[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo8[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo9" type="array">
+         <obj_property name="ElementShortName">spo9[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo9[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo10" type="array">
+         <obj_property name="ElementShortName">spo10[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo10[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo11" type="array">
+         <obj_property name="ElementShortName">spo11[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo11[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo12" type="array">
+         <obj_property name="ElementShortName">spo12[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo12[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo13" type="array">
+         <obj_property name="ElementShortName">spo13[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo13[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo14" type="array">
+         <obj_property name="ElementShortName">spo14[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo14[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo15" type="array">
+         <obj_property name="ElementShortName">spo15[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo15[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo16" type="array">
+         <obj_property name="ElementShortName">spo16[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo16[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo17" type="array">
+         <obj_property name="ElementShortName">spo17[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo17[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo18" type="array">
+         <obj_property name="ElementShortName">spo18[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo18[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo19" type="array">
+         <obj_property name="ElementShortName">spo19[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo19[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo20" type="array">
+         <obj_property name="ElementShortName">spo20[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo20[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo21" type="array">
+         <obj_property name="ElementShortName">spo21[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo21[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo44" type="array">
+         <obj_property name="ElementShortName">spo44[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo44[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo22" type="array">
+         <obj_property name="ElementShortName">spo22[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo22[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo23" type="array">
+         <obj_property name="ElementShortName">spo23[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo23[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo24" type="array">
+         <obj_property name="ElementShortName">spo24[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo24[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo25" type="array">
+         <obj_property name="ElementShortName">spo25[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo25[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo26" type="array">
+         <obj_property name="ElementShortName">spo26[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo26[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo27" type="array">
+         <obj_property name="ElementShortName">spo27[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo27[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo28" type="array">
+         <obj_property name="ElementShortName">spo28[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo28[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo29" type="array">
+         <obj_property name="ElementShortName">spo29[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo29[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo30" type="array">
+         <obj_property name="ElementShortName">spo30[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo30[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo31" type="array">
+         <obj_property name="ElementShortName">spo31[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo31[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo32" type="array">
+         <obj_property name="ElementShortName">spo32[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo32[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo33" type="array">
+         <obj_property name="ElementShortName">spo33[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo33[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo34" type="array">
+         <obj_property name="ElementShortName">spo34[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo34[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo35" type="array">
+         <obj_property name="ElementShortName">spo35[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo35[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo36" type="array">
+         <obj_property name="ElementShortName">spo36[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo36[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo37" type="array">
+         <obj_property name="ElementShortName">spo37[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo37[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo38" type="array">
+         <obj_property name="ElementShortName">spo38[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo38[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo39" type="array">
+         <obj_property name="ElementShortName">spo39[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo39[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo40" type="array">
+         <obj_property name="ElementShortName">spo40[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo40[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo41" type="array">
+         <obj_property name="ElementShortName">spo41[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo41[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo42" type="array">
+         <obj_property name="ElementShortName">spo42[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo42[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo43" type="array">
+         <obj_property name="ElementShortName">spo43[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo43[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo45" type="array">
+         <obj_property name="ElementShortName">spo45[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo45[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo46" type="array">
+         <obj_property name="ElementShortName">spo46[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo46[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo47" type="array">
+         <obj_property name="ElementShortName">spo47[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo47[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo48" type="array">
+         <obj_property name="ElementShortName">spo48[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo48[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo49" type="array">
+         <obj_property name="ElementShortName">spo49[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo49[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo50" type="array">
+         <obj_property name="ElementShortName">spo50[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo50[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo51" type="array">
+         <obj_property name="ElementShortName">spo51[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo51[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo52" type="array">
+         <obj_property name="ElementShortName">spo52[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo52[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo53" type="array">
+         <obj_property name="ElementShortName">spo53[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo53[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo54" type="array">
+         <obj_property name="ElementShortName">spo54[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo54[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo55" type="array">
+         <obj_property name="ElementShortName">spo55[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo55[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo56" type="array">
+         <obj_property name="ElementShortName">spo56[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo56[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo57" type="array">
+         <obj_property name="ElementShortName">spo57[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo57[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo58" type="array">
+         <obj_property name="ElementShortName">spo58[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo58[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo59" type="array">
+         <obj_property name="ElementShortName">spo59[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo59[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo60" type="array">
+         <obj_property name="ElementShortName">spo60[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo60[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo61" type="array">
+         <obj_property name="ElementShortName">spo61[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo61[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo62" type="array">
+         <obj_property name="ElementShortName">spo62[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo62[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo63" type="array">
+         <obj_property name="ElementShortName">spo63[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo63[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo64" type="array">
+         <obj_property name="ElementShortName">spo64[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo64[511:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/BtInB_RAMspo" type="array">
+      <obj_property name="ElementShortName">BtInB_RAMspo[2047:0]</obj_property>
+      <obj_property name="ObjectShortName">BtInB_RAMspo[2047:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">spo[32767:0]</obj_property>
+      <obj_property name="ObjectShortName">spo[32767:0]</obj_property>
+      <obj_property name="label">GFGt_RAMspo[32767:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/current_state_5d" type="array">
+      <obj_property name="ElementShortName">current_state_5d[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state_5d[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group368" type="group">
+      <obj_property name="label">DSP16UpV</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/UpV1" type="array">
+         <obj_property name="ElementShortName">UpV1[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV1[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV2" type="array">
+         <obj_property name="ElementShortName">UpV2[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV2[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV3" type="array">
+         <obj_property name="ElementShortName">UpV3[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV3[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV4" type="array">
+         <obj_property name="ElementShortName">UpV4[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV4[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV5" type="array">
+         <obj_property name="ElementShortName">UpV5[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV5[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV6" type="array">
+         <obj_property name="ElementShortName">UpV6[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV6[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV7" type="array">
+         <obj_property name="ElementShortName">UpV7[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV7[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV8" type="array">
+         <obj_property name="ElementShortName">UpV8[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV8[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV9" type="array">
+         <obj_property name="ElementShortName">UpV9[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV9[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV10" type="array">
+         <obj_property name="ElementShortName">UpV10[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV10[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV11" type="array">
+         <obj_property name="ElementShortName">UpV11[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV11[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV12" type="array">
+         <obj_property name="ElementShortName">UpV12[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV12[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV13" type="array">
+         <obj_property name="ElementShortName">UpV13[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV13[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV14" type="array">
+         <obj_property name="ElementShortName">UpV14[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV14[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV15" type="array">
+         <obj_property name="ElementShortName">UpV15[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV15[2047:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV16" type="array">
+         <obj_property name="ElementShortName">UpV16[2047:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV16[2047:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1876" type="group">
+      <obj_property name="label">UpV_Accumu1_16</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_1" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_1[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_1[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_2" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_2[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_2[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_3" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_3[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_3[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_4" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_4[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_4[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_5" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_5[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_5[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_6" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_6[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_6[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_7" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_7[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_7[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_8" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_8[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_8[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_9" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_9[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_9[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_10" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_10[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_10[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_11" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_11[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_11[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_12" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_12[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_12[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_13" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_13[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_13[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_14" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_14[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_14[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_15" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_15[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_15[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_16" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_16[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_16[127:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1859" type="group">
+      <obj_property name="label">UpV_Accumu1_N</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Channel_Accumulator1/current_state_6d" type="array">
+         <obj_property name="ElementShortName">current_state_6d[3:0]</obj_property>
+         <obj_property name="ObjectShortName">current_state_6d[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_1" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_1[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_1[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_2" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_2[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_2[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_3" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_3[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_3[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_4" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_4[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_4[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_5" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_5[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_5[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_6" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_6[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_6[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_7" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_7[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_7[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_8" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_8[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_8[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_9" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_9[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_9[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_10" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_10[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_10[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_11" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_11[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_11[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_12" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_12[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_12[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_13" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_13[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_13[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_14" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_14[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_14[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_15" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_15[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_15[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_16" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_16[127:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_16[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Channel_Accumulator10/NInch_D_PInch_ctn" type="array">
+         <obj_property name="ElementShortName">NInch_D_PInch_ctn[4:0]</obj_property>
+         <obj_property name="ObjectShortName">NInch_D_PInch_ctn[4:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Channel_Accumulator10/UpV_Accumu1_N_en" type="logic">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_en</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_en</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1168" type="group">
+      <obj_property name="label">AtUVA_tran</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B1_1" type="array">
+         <obj_property name="ElementShortName">AtUVA_B1_1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B1_1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B1_2" type="array">
+         <obj_property name="ElementShortName">AtUVA_B1_2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B1_2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B1_3" type="array">
+         <obj_property name="ElementShortName">AtUVA_B1_3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B1_3[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B1_4" type="array">
+         <obj_property name="ElementShortName">AtUVA_B1_4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B1_4[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B1_5" type="array">
+         <obj_property name="ElementShortName">AtUVA_B1_5[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B1_5[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B1_6" type="array">
+         <obj_property name="ElementShortName">AtUVA_B1_6[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B1_6[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B1_7" type="array">
+         <obj_property name="ElementShortName">AtUVA_B1_7[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B1_7[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B1_8" type="array">
+         <obj_property name="ElementShortName">AtUVA_B1_8[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B1_8[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B1_9" type="array">
+         <obj_property name="ElementShortName">AtUVA_B1_9[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B1_9[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B1_10" type="array">
+         <obj_property name="ElementShortName">AtUVA_B1_10[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B1_10[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B1_11" type="array">
+         <obj_property name="ElementShortName">AtUVA_B1_11[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B1_11[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B1_12" type="array">
+         <obj_property name="ElementShortName">AtUVA_B1_12[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B1_12[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B1_13" type="array">
+         <obj_property name="ElementShortName">AtUVA_B1_13[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B1_13[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B1_14" type="array">
+         <obj_property name="ElementShortName">AtUVA_B1_14[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B1_14[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B1_15" type="array">
+         <obj_property name="ElementShortName">AtUVA_B1_15[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B1_15[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B1_16" type="array">
+         <obj_property name="ElementShortName">AtUVA_B1_16[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B1_16[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B2_1" type="array">
+         <obj_property name="ElementShortName">AtUVA_B2_1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B2_1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B2_2" type="array">
+         <obj_property name="ElementShortName">AtUVA_B2_2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B2_2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B2_3" type="array">
+         <obj_property name="ElementShortName">AtUVA_B2_3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B2_3[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B2_4" type="array">
+         <obj_property name="ElementShortName">AtUVA_B2_4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B2_4[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B2_5" type="array">
+         <obj_property name="ElementShortName">AtUVA_B2_5[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B2_5[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B2_6" type="array">
+         <obj_property name="ElementShortName">AtUVA_B2_6[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B2_6[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B2_7" type="array">
+         <obj_property name="ElementShortName">AtUVA_B2_7[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B2_7[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B2_8" type="array">
+         <obj_property name="ElementShortName">AtUVA_B2_8[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B2_8[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B2_9" type="array">
+         <obj_property name="ElementShortName">AtUVA_B2_9[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B2_9[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B2_10" type="array">
+         <obj_property name="ElementShortName">AtUVA_B2_10[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B2_10[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B2_11" type="array">
+         <obj_property name="ElementShortName">AtUVA_B2_11[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B2_11[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B2_12" type="array">
+         <obj_property name="ElementShortName">AtUVA_B2_12[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B2_12[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B2_13" type="array">
+         <obj_property name="ElementShortName">AtUVA_B2_13[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B2_13[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B2_14" type="array">
+         <obj_property name="ElementShortName">AtUVA_B2_14[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B2_14[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B2_15" type="array">
+         <obj_property name="ElementShortName">AtUVA_B2_15[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B2_15[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/AtUVA_B2_16" type="array">
+         <obj_property name="ElementShortName">AtUVA_B2_16[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_B2_16[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group852" type="group">
+      <obj_property name="label">CTL_CNT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/NInch_D_PInch_cnt" type="array">
+         <obj_property name="ElementShortName">NInch_D_PInch_cnt[6:0]</obj_property>
+         <obj_property name="ObjectShortName">NInch_D_PInch_cnt[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/Nouch_D_Pouch_cnt" type="array">
+         <obj_property name="ElementShortName">Nouch_D_Pouch_cnt[6:0]</obj_property>
+         <obj_property name="ObjectShortName">Nouch_D_Pouch_cnt[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/NslideH_cnt" type="array">
+         <obj_property name="ElementShortName">NslideH_cnt[8:0]</obj_property>
+         <obj_property name="ObjectShortName">NslideH_cnt[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/NslideV_cnt" type="array">
+         <obj_property name="ElementShortName">NslideV_cnt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">NslideV_cnt[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group360" type="group">
+      <obj_property name="label">Buffer_exchanger</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/current_state_6d" type="array">
+         <obj_property name="ElementShortName">current_state_6d[3:0]</obj_property>
+         <obj_property name="ObjectShortName">current_state_6d[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/current_state_5d" type="array">
+         <obj_property name="ElementShortName">current_state_5d[3:0]</obj_property>
+         <obj_property name="ObjectShortName">current_state_5d[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/UpV_Accumu1_N_en" type="logic">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_en</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/NInch_D_PInch_cnt_5d" type="array">
+         <obj_property name="ElementShortName">NInch_D_PInch_cnt_5d[6:0]</obj_property>
+         <obj_property name="ObjectShortName">NInch_D_PInch_cnt_5d[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/Nouch_D_Pouch_cnt_5d" type="array">
+         <obj_property name="ElementShortName">Nouch_D_Pouch_cnt_5d[6:0]</obj_property>
+         <obj_property name="ObjectShortName">Nouch_D_Pouch_cnt_5d[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Channel_Accumulator1/NInch_D_PInch_ctn" type="array">
+         <obj_property name="ElementShortName">NInch_D_PInch_ctn[4:0]</obj_property>
+         <obj_property name="ObjectShortName">NInch_D_PInch_ctn[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/NslideH_cnt_5d" type="array">
+         <obj_property name="ElementShortName">NslideH_cnt_5d[8:0]</obj_property>
+         <obj_property name="ObjectShortName">NslideH_cnt_5d[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/ex_we_c" type="array">
+         <obj_property name="ElementShortName">ex_we_c[63:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_we_c[63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/ex_we" type="array">
+         <obj_property name="ElementShortName">ex_we[63:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_we[63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/ex_addr" type="array">
+         <obj_property name="ElementShortName">ex_addr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_addr[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group3742" type="group">
+      <obj_property name="label">Exchange</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/current_state" type="array">
+         <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/addr_wr" type="array">
+         <obj_property name="ElementShortName">addr_wr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_wr[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/ex_we" type="array">
+         <obj_property name="ElementShortName">ex_we[63:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_we[63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/readaddr_cnt" type="array">
+         <obj_property name="ElementShortName">readaddr_cnt[8:0]</obj_property>
+         <obj_property name="ObjectShortName">readaddr_cnt[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/ex_addr" type="array">
+         <obj_property name="ElementShortName">ex_addr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_addr[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/addr_wr" type="array">
+         <obj_property name="ElementShortName">addr_wr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_wr[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/Channel_Switch_Done_6d" type="logic">
+         <obj_property name="ElementShortName">Channel_Switch_Done_6d</obj_property>
+         <obj_property name="ObjectShortName">Channel_Switch_Done_6d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/ex_d1" type="array">
+         <obj_property name="ElementShortName">ex_d1[511:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_d1[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/ex_d2" type="array">
+         <obj_property name="ElementShortName">ex_d2[511:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_d2[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/current_state" type="array">
+         <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/Layer_Finish" type="logic">
+      <obj_property name="ElementShortName">Layer_Finish</obj_property>
+      <obj_property name="ObjectShortName">Layer_Finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/d_ram" type="array">
+      <obj_property name="ElementShortName">d_ram[511:0]</obj_property>
+      <obj_property name="ObjectShortName">d_ram[511:0]</obj_property>
+   </wvobject>
+</wave_config>

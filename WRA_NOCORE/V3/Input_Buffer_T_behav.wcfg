@@ -1,0 +1,2216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Input_Buffer_T_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Input_Buffer_T" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="35000000001fs"></ZoomEndTime>
+      <Cursor1Time time="29222800000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="219"></NameColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="92" />
+   <wvobject fp_name="/Input_Buffer_T/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/we_Gt" type="logic">
+      <obj_property name="ElementShortName">we_Gt</obj_property>
+      <obj_property name="ObjectShortName">we_Gt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/a_Gt" type="array">
+      <obj_property name="ElementShortName">a_Gt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">a_Gt[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/a" type="array">
+      <obj_property name="ElementShortName">a[11:0]</obj_property>
+      <obj_property name="ObjectShortName">a[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/d_Gt" type="array">
+      <obj_property name="ElementShortName">d_Gt[511:0]</obj_property>
+      <obj_property name="ObjectShortName">d_Gt[511:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/d_ram" type="array">
+      <obj_property name="ElementShortName">d_ram[255:0]</obj_property>
+      <obj_property name="ObjectShortName">d_ram[255:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_bt_start" type="array">
+      <obj_property name="ElementShortName">a_bt_start[3:0]</obj_property>
+      <obj_property name="ObjectShortName">a_bt_start[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/inputb_spo" type="array">
+      <obj_property name="ElementShortName">inputb_spo[511:0]</obj_property>
+      <obj_property name="ObjectShortName">inputb_spo[511:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="group116" type="group">
+      <obj_property name="label">OPs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/stride_op" type="logic">
+         <obj_property name="ElementShortName">stride_op</obj_property>
+         <obj_property name="ObjectShortName">stride_op</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/kernelsize_op" type="logic">
+         <obj_property name="ElementShortName">kernelsize_op</obj_property>
+         <obj_property name="ObjectShortName">kernelsize_op</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/numslideH_op" type="array">
+         <obj_property name="ElementShortName">numslideH_op[8:0]</obj_property>
+         <obj_property name="ObjectShortName">numslideH_op[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/numslideV_op" type="array">
+         <obj_property name="ElementShortName">numslideV_op[4:0]</obj_property>
+         <obj_property name="ObjectShortName">numslideV_op[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/numswitchH_op" type="array">
+         <obj_property name="ElementShortName">numswitchH_op[4:0]</obj_property>
+         <obj_property name="ObjectShortName">numswitchH_op[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/NInch_D_PInch_op" type="array">
+         <obj_property name="ElementShortName">NInch_D_PInch_op[4:0]</obj_property>
+         <obj_property name="ObjectShortName">NInch_D_PInch_op[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/NOuch_D_POuch_op" type="array">
+         <obj_property name="ElementShortName">NOuch_D_POuch_op[4:0]</obj_property>
+         <obj_property name="ObjectShortName">NOuch_D_POuch_op[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/cellnum_op" type="array">
+         <obj_property name="ElementShortName">cellnum_op[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cellnum_op[7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/linenum_op" type="array">
+         <obj_property name="ElementShortName">linenum_op[7:0]</obj_property>
+         <obj_property name="ObjectShortName">linenum_op[7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/fstL" type="array">
+         <obj_property name="ElementShortName">fstL[1:0]</obj_property>
+         <obj_property name="ObjectShortName">fstL[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/fixpoint_op" type="array">
+         <obj_property name="ElementShortName">fixpoint_op[1:0]</obj_property>
+         <obj_property name="ObjectShortName">fixpoint_op[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group117" type="group">
+      <obj_property name="label">Ctl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/inputbstart_op" type="logic">
+         <obj_property name="ElementShortName">inputbstart_op</obj_property>
+         <obj_property name="ObjectShortName">inputbstart_op</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Save_Done" type="logic">
+         <obj_property name="ElementShortName">BtInB_Save_Done</obj_property>
+         <obj_property name="ObjectShortName">BtInB_Save_Done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/Channel_Switch_Done" type="logic">
+         <obj_property name="ElementShortName">Channel_Switch_Done</obj_property>
+         <obj_property name="ObjectShortName">Channel_Switch_Done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Channel_Switch_Done_6d" type="logic">
+         <obj_property name="ElementShortName">Channel_Switch_Done_6d</obj_property>
+         <obj_property name="ObjectShortName">Channel_Switch_Done_6d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/en_accord_inputbstart" type="logic">
+         <obj_property name="ElementShortName">en_accord_inputbstart</obj_property>
+         <obj_property name="ObjectShortName">en_accord_inputbstart</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Layer_Finish" type="logic">
+         <obj_property name="ElementShortName">Layer_Finish</obj_property>
+         <obj_property name="ObjectShortName">Layer_Finish</obj_property>
+      </wvobject>
+      <wvobject fp_name="group786" type="group">
+         <obj_property name="label">FSM</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/current_state" type="array">
+            <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+            <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/next_state" type="array">
+            <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+            <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/current_state_d" type="array">
+            <obj_property name="ElementShortName">current_state_d[3:0]</obj_property>
+            <obj_property name="ObjectShortName">current_state_d[3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#FFA500</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/current_state_2d" type="array">
+            <obj_property name="ElementShortName">current_state_2d[3:0]</obj_property>
+            <obj_property name="ObjectShortName">current_state_2d[3:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group985" type="group">
+         <obj_property name="label">Bt</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/we_Bt" type="logic">
+            <obj_property name="ElementShortName">we_Bt</obj_property>
+            <obj_property name="ObjectShortName">we_Bt</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_Bt" type="array">
+            <obj_property name="ElementShortName">a_Bt[3:0]</obj_property>
+            <obj_property name="ObjectShortName">a_Bt[3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_bt_switch" type="array">
+            <obj_property name="ElementShortName">a_bt_switch[3:0]</obj_property>
+            <obj_property name="ObjectShortName">a_bt_switch[3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_bt_start_en" type="logic">
+            <obj_property name="ElementShortName">a_bt_start_en</obj_property>
+            <obj_property name="ObjectShortName">a_bt_start_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_bt_start" type="array">
+            <obj_property name="ElementShortName">a_bt_start[3:0]</obj_property>
+            <obj_property name="ObjectShortName">a_bt_start[3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1004" type="group">
+         <obj_property name="label">Gt</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_Gt" type="array">
+            <obj_property name="ElementShortName">a_Gt[15:0]</obj_property>
+            <obj_property name="ObjectShortName">a_Gt[15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group852" type="group">
+         <obj_property name="label">CTL_CNT</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/NInch_D_PInch_cnt" type="array">
+            <obj_property name="ElementShortName">NInch_D_PInch_cnt[6:0]</obj_property>
+            <obj_property name="ObjectShortName">NInch_D_PInch_cnt[6:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#D2691E</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/Nouch_D_Pouch_cnt" type="array">
+            <obj_property name="ElementShortName">Nouch_D_Pouch_cnt[6:0]</obj_property>
+            <obj_property name="ObjectShortName">Nouch_D_Pouch_cnt[6:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#D2691E</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/NslideH_cnt" type="array">
+            <obj_property name="ElementShortName">NslideH_cnt[8:0]</obj_property>
+            <obj_property name="ObjectShortName">NslideH_cnt[8:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#D2691E</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/NslideV_cnt" type="array">
+            <obj_property name="ElementShortName">NslideV_cnt[4:0]</obj_property>
+            <obj_property name="ObjectShortName">NslideV_cnt[4:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            <obj_property name="CustomSignalColor">#D2691E</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group280" type="group">
+      <obj_property name="label">InputBuffer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/addr_wr" type="array">
+         <obj_property name="ElementShortName">addr_wr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_wr[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/ex_addr" type="array">
+         <obj_property name="ElementShortName">ex_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_addr[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/readaddr_cnt" type="array">
+         <obj_property name="ElementShortName">readaddr_cnt[3:0]</obj_property>
+         <obj_property name="ObjectShortName">readaddr_cnt[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/inputb_spo" type="array">
+         <obj_property name="ElementShortName">inputb_spo[511:0]</obj_property>
+         <obj_property name="ObjectShortName">inputb_spo[511:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Reversed">false</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/spoindex_cnt" type="array">
+         <obj_property name="ElementShortName">spoindex_cnt[3:0]</obj_property>
+         <obj_property name="ObjectShortName">spoindex_cnt[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/cell_cnt" type="array">
+         <obj_property name="ElementShortName">cell_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cell_cnt[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/line_cnt" type="array">
+         <obj_property name="ElementShortName">line_cnt[5:0]</obj_property>
+         <obj_property name="ObjectShortName">line_cnt[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/we1" type="logic">
+         <obj_property name="ElementShortName">we1</obj_property>
+         <obj_property name="ObjectShortName">we1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/we2" type="logic">
+         <obj_property name="ElementShortName">we2</obj_property>
+         <obj_property name="ObjectShortName">we2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/we3" type="logic">
+         <obj_property name="ElementShortName">we3</obj_property>
+         <obj_property name="ObjectShortName">we3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/we4" type="logic">
+         <obj_property name="ElementShortName">we4</obj_property>
+         <obj_property name="ObjectShortName">we4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/we5" type="logic">
+         <obj_property name="ElementShortName">we5</obj_property>
+         <obj_property name="ObjectShortName">we5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/we6" type="logic">
+         <obj_property name="ElementShortName">we6</obj_property>
+         <obj_property name="ObjectShortName">we6</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group154" type="group">
+      <obj_property name="label">Tran1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/input16_8bit" type="array">
+         <obj_property name="ElementShortName">input16_8bit[127:0]</obj_property>
+         <obj_property name="ObjectShortName">input16_8bit[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/output16_8bit" type="array">
+         <obj_property name="ElementShortName">output16_8bit[127:0]</obj_property>
+         <obj_property name="ObjectShortName">output16_8bit[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="group3945" type="group">
+         <obj_property name="label">IO</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io11" type="array">
+            <obj_property name="ElementShortName">Io11[10:0]</obj_property>
+            <obj_property name="ObjectShortName">Io11[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io12" type="array">
+            <obj_property name="ElementShortName">Io12[10:0]</obj_property>
+            <obj_property name="ObjectShortName">Io12[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io13" type="array">
+            <obj_property name="ElementShortName">Io13[10:0]</obj_property>
+            <obj_property name="ObjectShortName">Io13[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io14" type="array">
+            <obj_property name="ElementShortName">Io14[10:0]</obj_property>
+            <obj_property name="ObjectShortName">Io14[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io21" type="array">
+            <obj_property name="ElementShortName">Io21[10:0]</obj_property>
+            <obj_property name="ObjectShortName">Io21[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io22" type="array">
+            <obj_property name="ElementShortName">Io22[10:0]</obj_property>
+            <obj_property name="ObjectShortName">Io22[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io23" type="array">
+            <obj_property name="ElementShortName">Io23[10:0]</obj_property>
+            <obj_property name="ObjectShortName">Io23[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io24" type="array">
+            <obj_property name="ElementShortName">Io24[10:0]</obj_property>
+            <obj_property name="ObjectShortName">Io24[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io31" type="array">
+            <obj_property name="ElementShortName">Io31[10:0]</obj_property>
+            <obj_property name="ObjectShortName">Io31[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io32" type="array">
+            <obj_property name="ElementShortName">Io32[10:0]</obj_property>
+            <obj_property name="ObjectShortName">Io32[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io33" type="array">
+            <obj_property name="ElementShortName">Io33[10:0]</obj_property>
+            <obj_property name="ObjectShortName">Io33[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io34" type="array">
+            <obj_property name="ElementShortName">Io34[10:0]</obj_property>
+            <obj_property name="ObjectShortName">Io34[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io41" type="array">
+            <obj_property name="ElementShortName">Io41[10:0]</obj_property>
+            <obj_property name="ObjectShortName">Io41[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io42" type="array">
+            <obj_property name="ElementShortName">Io42[10:0]</obj_property>
+            <obj_property name="ObjectShortName">Io42[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io43" type="array">
+            <obj_property name="ElementShortName">Io43[10:0]</obj_property>
+            <obj_property name="ObjectShortName">Io43[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io44" type="array">
+            <obj_property name="ElementShortName">Io44[10:0]</obj_property>
+            <obj_property name="ObjectShortName">Io44[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group191" type="group">
+      <obj_property name="label">Tran2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans2/input16_8bit" type="array">
+         <obj_property name="ElementShortName">input16_8bit[127:0]</obj_property>
+         <obj_property name="ObjectShortName">input16_8bit[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans2/output16_8bit" type="array">
+         <obj_property name="ElementShortName">output16_8bit[127:0]</obj_property>
+         <obj_property name="ObjectShortName">output16_8bit[127:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group3899" type="group">
+      <obj_property name="label">Tran8</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group4657" type="group">
+         <obj_property name="label">IO</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group851" type="group">
+      <obj_property name="label">BtInB_Buffer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/wea0" type="logic">
+         <obj_property name="ElementShortName">wea0</obj_property>
+         <obj_property name="ObjectShortName">wea0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/wea1" type="logic">
+         <obj_property name="ElementShortName">wea1</obj_property>
+         <obj_property name="ObjectShortName">wea1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/wea2" type="logic">
+         <obj_property name="ElementShortName">wea2</obj_property>
+         <obj_property name="ObjectShortName">wea2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/wea3" type="logic">
+         <obj_property name="ElementShortName">wea3</obj_property>
+         <obj_property name="ObjectShortName">wea3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/addra0" type="array">
+         <obj_property name="ElementShortName">addra0[3:0]</obj_property>
+         <obj_property name="ObjectShortName">addra0[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/addra1" type="array">
+         <obj_property name="ElementShortName">addra1[3:0]</obj_property>
+         <obj_property name="ObjectShortName">addra1[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/addra2" type="array">
+         <obj_property name="ElementShortName">addra2[3:0]</obj_property>
+         <obj_property name="ObjectShortName">addra2[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/addra3" type="array">
+         <obj_property name="ElementShortName">addra3[3:0]</obj_property>
+         <obj_property name="ObjectShortName">addra3[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/dina0" type="array">
+         <obj_property name="ElementShortName">dina0[127:0]</obj_property>
+         <obj_property name="ObjectShortName">dina0[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/dina1" type="array">
+         <obj_property name="ElementShortName">dina1[127:0]</obj_property>
+         <obj_property name="ObjectShortName">dina1[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/dina2" type="array">
+         <obj_property name="ElementShortName">dina2[127:0]</obj_property>
+         <obj_property name="ObjectShortName">dina2[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/dina3" type="array">
+         <obj_property name="ElementShortName">dina3[127:0]</obj_property>
+         <obj_property name="ObjectShortName">dina3[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/douta0" type="array">
+         <obj_property name="ElementShortName">douta0[127:0]</obj_property>
+         <obj_property name="ObjectShortName">douta0[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/douta1" type="array">
+         <obj_property name="ElementShortName">douta1[127:0]</obj_property>
+         <obj_property name="ObjectShortName">douta1[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/douta2" type="array">
+         <obj_property name="ElementShortName">douta2[127:0]</obj_property>
+         <obj_property name="ObjectShortName">douta2[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/douta3" type="array">
+         <obj_property name="ElementShortName">douta3[127:0]</obj_property>
+         <obj_property name="ObjectShortName">douta3[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1004" type="group">
+      <obj_property name="label">Gt</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/a_Gt1" type="array">
+         <obj_property name="ElementShortName">a_Gt1[15:0]</obj_property>
+         <obj_property name="ObjectShortName">a_Gt1[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/a_Gt2" type="array">
+         <obj_property name="ElementShortName">a_Gt2[15:0]</obj_property>
+         <obj_property name="ObjectShortName">a_Gt2[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_Gt" type="array">
+         <obj_property name="ElementShortName">a_Gt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">a_Gt[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_Bt" type="array">
+      <obj_property name="ElementShortName">a_Bt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">a_Bt[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/BtInB_RAMspo" type="array">
+      <obj_property name="ElementShortName">BtInB_RAMspo[511:0]</obj_property>
+      <obj_property name="ObjectShortName">BtInB_RAMspo[511:0]</obj_property>
+      <obj_property name="Reversed">false</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group201" type="group">
+      <obj_property name="label">GtFG_Ram_spo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo1" type="array">
+         <obj_property name="ElementShortName">spo1[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo1[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo2" type="array">
+         <obj_property name="ElementShortName">spo2[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo2[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo3" type="array">
+         <obj_property name="ElementShortName">spo3[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo3[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt_Ram0/spo4" type="array">
+         <obj_property name="ElementShortName">spo4[511:0]</obj_property>
+         <obj_property name="ObjectShortName">spo4[511:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/GFGt_RAMspo" type="array">
+      <obj_property name="ElementShortName">GFGt_RAMspo[2047:0]</obj_property>
+      <obj_property name="ObjectShortName">GFGt_RAMspo[2047:0]</obj_property>
+      <obj_property name="Reversed">false</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/current_state_5d" type="array">
+      <obj_property name="ElementShortName">current_state_5d[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state_5d[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group368" type="group">
+      <obj_property name="label">DSP16UpV</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/UpV1" type="array">
+         <obj_property name="ElementShortName">UpV1[703:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV1[703:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV2" type="array">
+         <obj_property name="ElementShortName">UpV2[703:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV2[703:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV3" type="array">
+         <obj_property name="ElementShortName">UpV3[703:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV3[703:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV4" type="array">
+         <obj_property name="ElementShortName">UpV4[703:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV4[703:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1876" type="group">
+      <obj_property name="label">UpV_Accumu1_16</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_1" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_1[175:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_1[175:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_2" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_2[175:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_2[175:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_3" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_3[175:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_3[175:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_16_4" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16_4[175:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16_4[175:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1859" type="group">
+      <obj_property name="label">UpV_Accumu1_N</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_1" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_1[175:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_1[175:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_2" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_2[175:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_2[175:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_3" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_3[175:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_3[175:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/UpV_Accumu1_N_4" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_4[175:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_4[175:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/Layer_Finish" type="logic">
+      <obj_property name="ElementShortName">Layer_Finish</obj_property>
+      <obj_property name="ObjectShortName">Layer_Finish</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider365">
+      <obj_property name="label">iInput_verification</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/spo1" type="array">
+      <obj_property name="ElementShortName">spo1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">spo1[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/spo2" type="array">
+      <obj_property name="ElementShortName">spo2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">spo2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/spo3" type="array">
+      <obj_property name="ElementShortName">spo3[127:0]</obj_property>
+      <obj_property name="ObjectShortName">spo3[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/spo4" type="array">
+      <obj_property name="ElementShortName">spo4[127:0]</obj_property>
+      <obj_property name="ObjectShortName">spo4[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/spo5" type="array">
+      <obj_property name="ElementShortName">spo5[127:0]</obj_property>
+      <obj_property name="ObjectShortName">spo5[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/spo6" type="array">
+      <obj_property name="ElementShortName">spo6[127:0]</obj_property>
+      <obj_property name="ObjectShortName">spo6[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/Buffer_Grain_16_32_32bit5/d" type="array">
+      <obj_property name="ElementShortName">d[127:0]</obj_property>
+      <obj_property name="ObjectShortName">d[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/Buffer_Grain_16_32_32bit5/a" type="array">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/Buffer_Grain_16_32_32bit5/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/Buffer_Grain_16_32_32bit5/Ram_Grain_32_32bit1/d" type="array">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/Buffer_Grain_16_32_32bit5/Ram_Grain_32_32bit1/a" type="array">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/BtInB_spo" type="array">
+      <obj_property name="ElementShortName">BtInB_spo[0:511]</obj_property>
+      <obj_property name="ObjectShortName">BtInB_spo[0:511]</obj_property>
+      <obj_property name="Reversed">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/current_state_2d" type="array">
+      <obj_property name="ElementShortName">current_state_2d[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state_2d[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider433">
+      <obj_property name="label">Tran_verification</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Input_Trans1/input16_8bit" type="array">
+      <obj_property name="ElementShortName">input16_8bit[127:0]</obj_property>
+      <obj_property name="ObjectShortName">input16_8bit[127:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/output16_8bit1" type="array">
+      <obj_property name="ElementShortName">output16_8bit1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">output16_8bit1[127:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group398" type="group">
+      <obj_property name="label">I</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/I11" type="array">
+         <obj_property name="ElementShortName">I11[8:0]</obj_property>
+         <obj_property name="ObjectShortName">I11[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/I12" type="array">
+         <obj_property name="ElementShortName">I12[8:0]</obj_property>
+         <obj_property name="ObjectShortName">I12[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/I13" type="array">
+         <obj_property name="ElementShortName">I13[8:0]</obj_property>
+         <obj_property name="ObjectShortName">I13[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/I14" type="array">
+         <obj_property name="ElementShortName">I14[8:0]</obj_property>
+         <obj_property name="ObjectShortName">I14[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/I21" type="array">
+         <obj_property name="ElementShortName">I21[8:0]</obj_property>
+         <obj_property name="ObjectShortName">I21[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/I22" type="array">
+         <obj_property name="ElementShortName">I22[8:0]</obj_property>
+         <obj_property name="ObjectShortName">I22[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/I23" type="array">
+         <obj_property name="ElementShortName">I23[8:0]</obj_property>
+         <obj_property name="ObjectShortName">I23[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/I24" type="array">
+         <obj_property name="ElementShortName">I24[8:0]</obj_property>
+         <obj_property name="ObjectShortName">I24[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/I31" type="array">
+         <obj_property name="ElementShortName">I31[8:0]</obj_property>
+         <obj_property name="ObjectShortName">I31[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/I32" type="array">
+         <obj_property name="ElementShortName">I32[8:0]</obj_property>
+         <obj_property name="ObjectShortName">I32[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/I33" type="array">
+         <obj_property name="ElementShortName">I33[8:0]</obj_property>
+         <obj_property name="ObjectShortName">I33[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/I34" type="array">
+         <obj_property name="ElementShortName">I34[8:0]</obj_property>
+         <obj_property name="ObjectShortName">I34[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/I41" type="array">
+         <obj_property name="ElementShortName">I41[8:0]</obj_property>
+         <obj_property name="ObjectShortName">I41[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/I42" type="array">
+         <obj_property name="ElementShortName">I42[8:0]</obj_property>
+         <obj_property name="ObjectShortName">I42[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/I43" type="array">
+         <obj_property name="ElementShortName">I43[8:0]</obj_property>
+         <obj_property name="ObjectShortName">I43[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/I44" type="array">
+         <obj_property name="ElementShortName">I44[8:0]</obj_property>
+         <obj_property name="ObjectShortName">I44[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group431" type="group">
+      <obj_property name="label">IO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io11" type="array">
+         <obj_property name="ElementShortName">Io11[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Io11[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="CustomSignalColor">#FF0080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io12" type="array">
+         <obj_property name="ElementShortName">Io12[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Io12[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="CustomSignalColor">#FF0080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io13" type="array">
+         <obj_property name="ElementShortName">Io13[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Io13[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="CustomSignalColor">#FF0080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io14" type="array">
+         <obj_property name="ElementShortName">Io14[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Io14[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+         <obj_property name="CustomSignalColor">#FF0080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io21" type="array">
+         <obj_property name="ElementShortName">Io21[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Io21[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io22" type="array">
+         <obj_property name="ElementShortName">Io22[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Io22[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io23" type="array">
+         <obj_property name="ElementShortName">Io23[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Io23[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io24" type="array">
+         <obj_property name="ElementShortName">Io24[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Io24[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io31" type="array">
+         <obj_property name="ElementShortName">Io31[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Io31[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io32" type="array">
+         <obj_property name="ElementShortName">Io32[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Io32[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io33" type="array">
+         <obj_property name="ElementShortName">Io33[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Io33[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io34" type="array">
+         <obj_property name="ElementShortName">Io34[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Io34[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io41" type="array">
+         <obj_property name="ElementShortName">Io41[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Io41[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io42" type="array">
+         <obj_property name="ElementShortName">Io42[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Io42[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io43" type="array">
+         <obj_property name="ElementShortName">Io43[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Io43[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Io44" type="array">
+         <obj_property name="ElementShortName">Io44[10:0]</obj_property>
+         <obj_property name="ObjectShortName">Io44[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group432" type="group">
+      <obj_property name="label">IM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Im11" type="array">
+         <obj_property name="ElementShortName">Im11[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Im11[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Im12" type="array">
+         <obj_property name="ElementShortName">Im12[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Im12[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Im13" type="array">
+         <obj_property name="ElementShortName">Im13[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Im13[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Im14" type="array">
+         <obj_property name="ElementShortName">Im14[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Im14[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Im21" type="array">
+         <obj_property name="ElementShortName">Im21[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Im21[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Im22" type="array">
+         <obj_property name="ElementShortName">Im22[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Im22[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Im23" type="array">
+         <obj_property name="ElementShortName">Im23[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Im23[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Im24" type="array">
+         <obj_property name="ElementShortName">Im24[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Im24[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Im31" type="array">
+         <obj_property name="ElementShortName">Im31[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Im31[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Im32" type="array">
+         <obj_property name="ElementShortName">Im32[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Im32[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Im33" type="array">
+         <obj_property name="ElementShortName">Im33[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Im33[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Im34" type="array">
+         <obj_property name="ElementShortName">Im34[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Im34[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Im41" type="array">
+         <obj_property name="ElementShortName">Im41[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Im41[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Im42" type="array">
+         <obj_property name="ElementShortName">Im42[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Im42[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Im43" type="array">
+         <obj_property name="ElementShortName">Im43[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Im43[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Trans1/Im44" type="array">
+         <obj_property name="ElementShortName">Im44[9:0]</obj_property>
+         <obj_property name="ObjectShortName">Im44[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider1911">
+      <obj_property name="label">DSP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group453" type="group">
+      <obj_property name="label">DSP</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_Bt" type="array">
+         <obj_property name="ElementShortName">a_Bt[3:0]</obj_property>
+         <obj_property name="ObjectShortName">a_Bt[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/a_Gt" type="array">
+         <obj_property name="ElementShortName">a_Gt[15:0]</obj_property>
+         <obj_property name="ObjectShortName">a_Gt[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt1" type="array">
+         <obj_property name="ElementShortName">GFGt1[511:0]</obj_property>
+         <obj_property name="ObjectShortName">GFGt1[511:0]</obj_property>
+         <obj_property name="Reversed">false</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/GFGt2" type="array">
+         <obj_property name="ElementShortName">GFGt2[511:0]</obj_property>
+         <obj_property name="ObjectShortName">GFGt2[511:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_1/inputa" type="array">
+         <obj_property name="ElementShortName">inputa[127:0]</obj_property>
+         <obj_property name="ObjectShortName">inputa[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_1/inputb" type="array">
+         <obj_property name="ElementShortName">inputb[127:0]</obj_property>
+         <obj_property name="ObjectShortName">inputb[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_1/outputp" type="array">
+         <obj_property name="ElementShortName">outputp[175:0]</obj_property>
+         <obj_property name="ObjectShortName">outputp[175:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_2/inputa" type="array">
+         <obj_property name="ElementShortName">inputa[127:0]</obj_property>
+         <obj_property name="ObjectShortName">inputa[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_2/inputb" type="array">
+         <obj_property name="ElementShortName">inputb[127:0]</obj_property>
+         <obj_property name="ObjectShortName">inputb[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_2/DSP16_1/inputa" type="array">
+         <obj_property name="ElementShortName">inputa[127:0]</obj_property>
+         <obj_property name="ObjectShortName">inputa[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_2/DSP16_1/inputb" type="array">
+         <obj_property name="ElementShortName">inputb[127:0]</obj_property>
+         <obj_property name="ObjectShortName">inputb[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_2/DSP16_2/inputa" type="array">
+         <obj_property name="ElementShortName">inputa[127:0]</obj_property>
+         <obj_property name="ObjectShortName">inputa[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_2/DSP16_2/inputb" type="array">
+         <obj_property name="ElementShortName">inputb[127:0]</obj_property>
+         <obj_property name="ObjectShortName">inputb[127:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider452">
+      <obj_property name="label">MULT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group466" type="group">
+      <obj_property name="label">MULT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_1/mult1/A" type="array">
+         <obj_property name="ElementShortName">A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">A[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_1/mult1/B" type="array">
+         <obj_property name="ElementShortName">B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">B[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_1/mult1/P" type="array">
+         <obj_property name="ElementShortName">P[15:0]</obj_property>
+         <obj_property name="ObjectShortName">P[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF0080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_1/mult2/A" type="array">
+         <obj_property name="ElementShortName">A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">A[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_1/mult2/B" type="array">
+         <obj_property name="ElementShortName">B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">B[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_1/mult2/P" type="array">
+         <obj_property name="ElementShortName">P[15:0]</obj_property>
+         <obj_property name="ObjectShortName">P[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FF0080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+         <obj_property name="CellHeight">100</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_1/mult15/A" type="array">
+         <obj_property name="ElementShortName">A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">A[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_1/mult15/B" type="array">
+         <obj_property name="ElementShortName">B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">B[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_1/mult15/P" type="array">
+         <obj_property name="ElementShortName">P[15:0]</obj_property>
+         <obj_property name="ObjectShortName">P[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_1/mult16/A" type="array">
+         <obj_property name="ElementShortName">A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">A[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_1/mult16/B" type="array">
+         <obj_property name="ElementShortName">B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">B[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/DSP16_1/DSP16_1/mult16/P" type="array">
+         <obj_property name="ElementShortName">P[15:0]</obj_property>
+         <obj_property name="ObjectShortName">P[15:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group483" type="group">
+      <obj_property name="label">Accmu1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Channel_Accumu1_16_1/UpV_Inch1" type="array">
+         <obj_property name="ElementShortName">UpV_Inch1[175:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Inch1[175:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Channel_Accumu1_16_1/UpV_Accumu1_16" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16[175:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16[175:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group476" type="group">
+      <obj_property name="label">Accmu2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Channel_Accumulator1/UpV_Accumu1_16" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_16[175:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_16[175:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Channel_Accumulator1/UpV_Accumu1_N" type="array">
+         <obj_property name="ElementShortName">UpV_Accumu1_N[175:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N[175:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Channel_Accumulator1/UpV_Accumu1_N_en" type="logic">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_en</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Channel_Accumulator1/current_state_6d" type="array">
+         <obj_property name="ElementShortName">current_state_6d[3:0]</obj_property>
+         <obj_property name="ObjectShortName">current_state_6d[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Channel_Accumulator1/NInch_D_PInch_ctn" type="array">
+         <obj_property name="ElementShortName">NInch_D_PInch_ctn[4:0]</obj_property>
+         <obj_property name="ObjectShortName">NInch_D_PInch_ctn[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group490" type="group">
+      <obj_property name="label">Outputtran</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV" type="array">
+         <obj_property name="ElementShortName">UpV[175:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV[175:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="group732" type="group">
+         <obj_property name="label">UVP</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV11" type="array">
+            <obj_property name="ElementShortName">UpV11[10:0]</obj_property>
+            <obj_property name="ObjectShortName">UpV11[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV12" type="array">
+            <obj_property name="ElementShortName">UpV12[10:0]</obj_property>
+            <obj_property name="ObjectShortName">UpV12[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV13" type="array">
+            <obj_property name="ElementShortName">UpV13[10:0]</obj_property>
+            <obj_property name="ObjectShortName">UpV13[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV14" type="array">
+            <obj_property name="ElementShortName">UpV14[10:0]</obj_property>
+            <obj_property name="ObjectShortName">UpV14[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV21" type="array">
+            <obj_property name="ElementShortName">UpV21[10:0]</obj_property>
+            <obj_property name="ObjectShortName">UpV21[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV22" type="array">
+            <obj_property name="ElementShortName">UpV22[10:0]</obj_property>
+            <obj_property name="ObjectShortName">UpV22[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV23" type="array">
+            <obj_property name="ElementShortName">UpV23[10:0]</obj_property>
+            <obj_property name="ObjectShortName">UpV23[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV24" type="array">
+            <obj_property name="ElementShortName">UpV24[10:0]</obj_property>
+            <obj_property name="ObjectShortName">UpV24[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV31" type="array">
+            <obj_property name="ElementShortName">UpV31[10:0]</obj_property>
+            <obj_property name="ObjectShortName">UpV31[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV32" type="array">
+            <obj_property name="ElementShortName">UpV32[10:0]</obj_property>
+            <obj_property name="ObjectShortName">UpV32[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV33" type="array">
+            <obj_property name="ElementShortName">UpV33[10:0]</obj_property>
+            <obj_property name="ObjectShortName">UpV33[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV34" type="array">
+            <obj_property name="ElementShortName">UpV34[10:0]</obj_property>
+            <obj_property name="ObjectShortName">UpV34[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV41" type="array">
+            <obj_property name="ElementShortName">UpV41[10:0]</obj_property>
+            <obj_property name="ObjectShortName">UpV41[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV42" type="array">
+            <obj_property name="ElementShortName">UpV42[10:0]</obj_property>
+            <obj_property name="ObjectShortName">UpV42[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV43" type="array">
+            <obj_property name="ElementShortName">UpV43[10:0]</obj_property>
+            <obj_property name="ObjectShortName">UpV43[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Input_Buffer_T/Output_Trans1/UpV44" type="array">
+            <obj_property name="ElementShortName">UpV44[10:0]</obj_property>
+            <obj_property name="ObjectShortName">UpV44[10:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt11" type="array">
+         <obj_property name="ElementShortName">AtUpVt11[12:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUpVt11[12:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt12" type="array">
+         <obj_property name="ElementShortName">AtUpVt12[12:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUpVt12[12:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt21" type="array">
+         <obj_property name="ElementShortName">AtUpVt21[12:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUpVt21[12:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt22" type="array">
+         <obj_property name="ElementShortName">AtUpVt22[12:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUpVt22[12:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group516" type="group">
+      <obj_property name="label">Pooling/ReLU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt11_" type="array">
+         <obj_property name="ElementShortName">AtUpVt11_[12:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUpVt11_[12:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt12_" type="array">
+         <obj_property name="ElementShortName">AtUpVt12_[12:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUpVt12_[12:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt21_" type="array">
+         <obj_property name="ElementShortName">AtUpVt21_[12:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUpVt21_[12:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt22_" type="array">
+         <obj_property name="ElementShortName">AtUpVt22_[12:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUpVt22_[12:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUVA_Pool" type="array">
+         <obj_property name="ElementShortName">AtUVA_Pool[14:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_Pool[14:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUVA_avgPool" type="array">
+         <obj_property name="ElementShortName">AtUVA_avgPool[7:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_avgPool[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group2109" type="group">
+      <obj_property name="label">exchange</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/ex_we_c" type="array">
+         <obj_property name="ElementShortName">ex_we_c[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_we_c[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/UpV_Accumu1_N_en" type="logic">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_en</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/ex_we" type="array">
+         <obj_property name="ElementShortName">ex_we[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_we[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/ex_addr" type="array">
+         <obj_property name="ElementShortName">ex_addr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_addr[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/Channel_Switch_Done_6d" type="logic">
+         <obj_property name="ElementShortName">Channel_Switch_Done_6d</obj_property>
+         <obj_property name="ObjectShortName">Channel_Switch_Done_6d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/NInch_D_PInch_cnt_5d" type="array">
+         <obj_property name="ElementShortName">NInch_D_PInch_cnt_5d[6:0]</obj_property>
+         <obj_property name="ObjectShortName">NInch_D_PInch_cnt_5d[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/Nouch_D_Pouch_cnt_5d" type="array">
+         <obj_property name="ElementShortName">Nouch_D_Pouch_cnt_5d[6:0]</obj_property>
+         <obj_property name="ObjectShortName">Nouch_D_Pouch_cnt_5d[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/NslideH_cnt_5d" type="array">
+         <obj_property name="ElementShortName">NslideH_cnt_5d[8:0]</obj_property>
+         <obj_property name="ObjectShortName">NslideH_cnt_5d[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1053" type="group">
+      <obj_property name="label">exchinputbuffer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/ex_d1" type="array">
+         <obj_property name="ElementShortName">ex_d1[127:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_d1[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/ex_d2" type="array">
+         <obj_property name="ElementShortName">ex_d2[127:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_d2[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/input_buffer_d1" type="array">
+         <obj_property name="ElementShortName">input_buffer_d1[127:0]</obj_property>
+         <obj_property name="ObjectShortName">input_buffer_d1[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Input_Buffer0/input_buffer_d2" type="array">
+         <obj_property name="ElementShortName">input_buffer_d2[127:0]</obj_property>
+         <obj_property name="ObjectShortName">input_buffer_d2[127:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group5700" type="group">
+      <obj_property name="label">Acgpool_out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Buffer_Exchanger0/UpV_Accumu1_N_en" type="logic">
+         <obj_property name="ElementShortName">UpV_Accumu1_N_en</obj_property>
+         <obj_property name="ObjectShortName">UpV_Accumu1_N_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUVA_avgPool" type="array">
+         <obj_property name="ElementShortName">AtUVA_avgPool[7:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_avgPool[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUVA_avgPool" type="array">
+         <obj_property name="ElementShortName">AtUVA_avgPool[7:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_avgPool[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUVA_avgPool" type="array">
+         <obj_property name="ElementShortName">AtUVA_avgPool[7:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_avgPool[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUVA_avgPool" type="array">
+         <obj_property name="ElementShortName">AtUVA_avgPool[7:0]</obj_property>
+         <obj_property name="ObjectShortName">AtUVA_avgPool[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/WRA_ctl0/we_Bt" type="logic">
+      <obj_property name="ElementShortName">we_Bt</obj_property>
+      <obj_property name="ObjectShortName">we_Bt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/BtInB_Buffer0/we_Bt" type="logic">
+      <obj_property name="ElementShortName">we_Bt</obj_property>
+      <obj_property name="ObjectShortName">we_Bt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt11_" type="array">
+      <obj_property name="ElementShortName">AtUpVt11_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt11_[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt12_" type="array">
+      <obj_property name="ElementShortName">AtUpVt12_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt12_[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt21_" type="array">
+      <obj_property name="ElementShortName">AtUpVt21_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt21_[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt22_" type="array">
+      <obj_property name="ElementShortName">AtUpVt22_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt22_[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt11_" type="array">
+      <obj_property name="ElementShortName">AtUpVt11_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt11_[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt12_" type="array">
+      <obj_property name="ElementShortName">AtUpVt12_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt12_[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt21_" type="array">
+      <obj_property name="ElementShortName">AtUpVt21_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt21_[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt22_" type="array">
+      <obj_property name="ElementShortName">AtUpVt22_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt22_[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt11_" type="array">
+      <obj_property name="ElementShortName">AtUpVt11_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt11_[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt12_" type="array">
+      <obj_property name="ElementShortName">AtUpVt12_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt12_[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt21_" type="array">
+      <obj_property name="ElementShortName">AtUpVt21_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt21_[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt22_" type="array">
+      <obj_property name="ElementShortName">AtUpVt22_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt22_[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt11_" type="array">
+      <obj_property name="ElementShortName">AtUpVt11_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt11_[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt12_" type="array">
+      <obj_property name="ElementShortName">AtUpVt12_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt12_[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt21_" type="array">
+      <obj_property name="ElementShortName">AtUpVt21_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt21_[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt22_" type="array">
+      <obj_property name="ElementShortName">AtUpVt22_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt22_[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus12475" type="vbus">
+      <obj_property name="label">Test11_ch1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt11_[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt11_[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt11_[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt11_[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt11_[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt11_[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt11_[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt11_[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus12484" type="vbus">
+      <obj_property name="label">Test12_ch1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt12_[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt12_[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt12_[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt12_[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt12_[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt12_[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt12_[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt12_[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus12506" type="vbus">
+      <obj_property name="label">Test21_ch1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt21_[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt21_[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt21_[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt21_[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt21_[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt21_[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt21_[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt21_[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus12515" type="vbus">
+      <obj_property name="label">Test22_ch1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt22_[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt22_[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt22_[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt22_[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt22_[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt22_[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt22_[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans1/AtUpVt22_[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus12537" type="vbus">
+      <obj_property name="label">Test11_ch2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt11_[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt11_[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt11_[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt11_[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt11_[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt11_[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt11_[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt11_[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus12546" type="vbus">
+      <obj_property name="label">Test12_ch2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt12_[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt12_[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt12_[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt12_[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt12_[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt12_[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt12_[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt12_[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus12555" type="vbus">
+      <obj_property name="label">Test21_ch2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt21_[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt21_[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt21_[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt21_[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt21_[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt21_[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt21_[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt21_[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus12577" type="vbus">
+      <obj_property name="label">Tes22_ch2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt22_[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt22_[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt22_[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt22_[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt22_[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt22_[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt22_[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans2/AtUpVt22_[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus12586" type="vbus">
+      <obj_property name="label">Test11_ch3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt11_[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt11_[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt11_[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt11_[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt11_[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt11_[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt11_[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt11_[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus12617" type="vbus">
+      <obj_property name="label">Test12_ch3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt12_[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt12_[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt12_[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt12_[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt12_[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt12_[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt12_[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt12_[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus12626" type="vbus">
+      <obj_property name="label">Test21_ch3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt21_[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt21_[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt21_[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt21_[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt21_[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt21_[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt21_[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt21_[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus12648" type="vbus">
+      <obj_property name="label">Test22_ch3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt22_[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt22_[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt22_[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt22_[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt22_[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt22_[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt22_[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans3/AtUpVt22_[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus12657" type="vbus">
+      <obj_property name="label">Test11_ch4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt11_[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt11_[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt11_[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt11_[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt11_[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt11_[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt11_[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt11_[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus12666" type="vbus">
+      <obj_property name="label">Test12_ch4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt12_[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt12_[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt12_[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt12_[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt12_[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt12_[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt12_[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt12_[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus12675" type="vbus">
+      <obj_property name="label">Test21_ch4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt21_[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt21_[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt21_[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt21_[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt21_[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt21_[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt21_[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt21_[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus12684" type="vbus">
+      <obj_property name="label">Test22_ch4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt22_[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt22_[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt22_[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt22_[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt22_[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt22_[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt22_[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Input_Buffer_T/Output_Trans4/AtUpVt22_[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

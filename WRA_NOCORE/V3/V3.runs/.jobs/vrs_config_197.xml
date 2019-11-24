@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="blk_mem_synth_1" LaunchDir="E:/vivado_workspace/20190930_test/WRA_NOCORE/V3/V3.runs/blk_mem_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mult_synth_1" LaunchDir="E:/vivado_workspace/20190930_test/WRA_NOCORE/V3/V3.runs/mult_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="instrmemory_synth_1" LaunchDir="E:/vivado_workspace/20190930_test/WRA_NOCORE/V3/V3.runs/instrmemory_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="DataFIFO_synth_1" LaunchDir="E:/vivado_workspace/20190930_test/WRA_NOCORE/V3/V3.runs/DataFIFO_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="FilterRam_synth_1" LaunchDir="E:/vivado_workspace/20190930_test/WRA_NOCORE/V3/V3.runs/FilterRam_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="E:/vivado_workspace/20190930_test/WRA_NOCORE/V3/V3.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="blk_mem_synth_1"/>
+		<Parent Id="mult_synth_1"/>
+		<Parent Id="instrmemory_synth_1"/>
+		<Parent Id="DataFIFO_synth_1"/>
+		<Parent Id="FilterRam_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

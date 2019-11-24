@@ -1,0 +1,48 @@
+`timescale 1ns/1ps
+module Input_Buffer_T;
+reg  clk, we, rst, clk1, clk2;	
+reg  [11:0]a; // write:0-4095(64*64); read_max:0-510; read_min:0-63
+reg  [7:0]d;
+wire  [2047:0]inputb_spo; 
+
+reg  [1:0] paralism_op;
+reg  stride_op;
+reg  kernelsize_op;
+reg  inputbstart_op;
+reg  [8:0] numslideH_op; //max=64
+reg  [4:0] numslideV_op; //max=31
+
+always #10 clk=~clk;
+always #5  clk1=~clk1;
+always #3  clk2=~clk2;
+initial begin
+	clk<=0;
+	rst<=0;
+	we<=1;
+	paralism_op<=2;
+	stride_op<=1;
+	kernelsize_op<=1;
+	numslideH_op<=64;
+	numslideV_op<=31;
+	inputbstart_op<=0;
+#20 rst<=1;
+#81920 inputbstart_op<=1;
+	we<=0;	
+	end
+	
+
+		
+always@(posedge clk)
+	if(~rst)
+		begin a<=0; d<=0; end
+	else if(we)
+		begin a<=a+1; d<=d+1; end
+		
+wire [511:0] d_512;
+assign d_512={d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d};
+
+	
+
+Input_Buffer Input_Buffer0(a, d_512, we, clk, inputb_spo, rst, paralism_op, stride_op, kernelsize_op, inputbstart_op, numslideH_op ,numslideV_op);
+		
+endmodule

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Sep 25 13:16:33 2019
+# Process ID: 7296
+# Current directory: E:/vivado_workspace/20190923_sim_ok/WRA_NOCORE/V3/V3.runs/mult_lut_synth_1
+# Command line: vivado.exe -log mult_lut.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult_lut.tcl
+# Log file: E:/vivado_workspace/20190923_sim_ok/WRA_NOCORE/V3/V3.runs/mult_lut_synth_1/mult_lut.vds
+# Journal file: E:/vivado_workspace/20190923_sim_ok/WRA_NOCORE/V3/V3.runs/mult_lut_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mult_lut.tcl -notrace

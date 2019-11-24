@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../V3.srcs/sources_1/ip/mult_lut/sim/mult_lut.vhd" \
+
+nosort

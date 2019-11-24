@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="WRA_TOP_T_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="WRA_TOP_T" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="30689000000fs"></ZoomStartTime>
+      <ZoomEndTime time="31348000001fs"></ZoomEndTime>
+      <Cursor1Time time="31280500000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="197"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="78" />
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/stride_op" type="logic">
+      <obj_property name="ElementShortName">stride_op</obj_property>
+      <obj_property name="ObjectShortName">stride_op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/kernelsize_op" type="logic">
+      <obj_property name="ElementShortName">kernelsize_op</obj_property>
+      <obj_property name="ObjectShortName">kernelsize_op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/poolingen_op" type="logic">
+      <obj_property name="ElementShortName">poolingen_op</obj_property>
+      <obj_property name="ObjectShortName">poolingen_op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/padding_op" type="logic">
+      <obj_property name="ElementShortName">padding_op</obj_property>
+      <obj_property name="ObjectShortName">padding_op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/numslideH_op" type="array">
+      <obj_property name="ElementShortName">numslideH_op[8:0]</obj_property>
+      <obj_property name="ObjectShortName">numslideH_op[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/numslideV_op" type="array">
+      <obj_property name="ElementShortName">numslideV_op[4:0]</obj_property>
+      <obj_property name="ObjectShortName">numslideV_op[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/numswitchH_op" type="array">
+      <obj_property name="ElementShortName">numswitchH_op[4:0]</obj_property>
+      <obj_property name="ObjectShortName">numswitchH_op[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/NInch_D_PInch_op" type="array">
+      <obj_property name="ElementShortName">NInch_D_PInch_op[4:0]</obj_property>
+      <obj_property name="ObjectShortName">NInch_D_PInch_op[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/NOuch_D_POuch_op" type="array">
+      <obj_property name="ElementShortName">NOuch_D_POuch_op[4:0]</obj_property>
+      <obj_property name="ObjectShortName">NOuch_D_POuch_op[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/cellnum_op" type="array">
+      <obj_property name="ElementShortName">cellnum_op[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cellnum_op[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/linenum_op" type="array">
+      <obj_property name="ElementShortName">linenum_op[7:0]</obj_property>
+      <obj_property name="ObjectShortName">linenum_op[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/DMARead_OP" type="array">
+      <obj_property name="ElementShortName">DMARead_OP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMARead_OP[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/DMASize_OP" type="array">
+      <obj_property name="ElementShortName">DMASize_OP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMASize_OP[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/DMAReadFilter_OP" type="array">
+      <obj_property name="ElementShortName">DMAReadFilter_OP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMAReadFilter_OP[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/DMASizeFilter_OP" type="array">
+      <obj_property name="ElementShortName">DMASizeFilter_OP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMASizeFilter_OP[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/DMAAddrFilter_OP" type="array">
+      <obj_property name="ElementShortName">DMAAddrFilter_OP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DMAAddrFilter_OP[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/DMARead_cnt" type="array">
+      <obj_property name="ElementShortName">DMARead_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DMARead_cnt[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_FeatureDataIn" type="array">
+      <obj_property name="ElementShortName">WRA_FeatureDataIn[127:0]</obj_property>
+      <obj_property name="ObjectShortName">WRA_FeatureDataIn[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/we_Gt" type="logic">
+      <obj_property name="ElementShortName">we_Gt</obj_property>
+      <obj_property name="ObjectShortName">we_Gt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/d_Gt" type="array">
+      <obj_property name="ElementShortName">d_Gt[511:0]</obj_property>
+      <obj_property name="ObjectShortName">d_Gt[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/a_GtOutside" type="array">
+      <obj_property name="ElementShortName">a_GtOutside[15:0]</obj_property>
+      <obj_property name="ObjectShortName">a_GtOutside[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/DMAFilterRead_cnt" type="array">
+      <obj_property name="ElementShortName">DMAFilterRead_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DMAFilterRead_cnt[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/inputbstart_op" type="logic">
+      <obj_property name="ElementShortName">inputbstart_op</obj_property>
+      <obj_property name="ObjectShortName">inputbstart_op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/Layer_Finish" type="logic">
+      <obj_property name="ElementShortName">Layer_Finish</obj_property>
+      <obj_property name="ObjectShortName">Layer_Finish</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Switch_Done_6d" type="logic">
+      <obj_property name="ElementShortName">Channel_Switch_Done_6d</obj_property>
+      <obj_property name="ObjectShortName">Channel_Switch_Done_6d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/en_accord_inputbstart" type="logic">
+      <obj_property name="ElementShortName">en_accord_inputbstart</obj_property>
+      <obj_property name="ObjectShortName">en_accord_inputbstart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Input_Buffer0/readaddr_cnt" type="array">
+      <obj_property name="ElementShortName">readaddr_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">readaddr_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Input_Buffer0/inputb_spo" type="array">
+      <obj_property name="ElementShortName">inputb_spo[511:0]</obj_property>
+      <obj_property name="ObjectShortName">inputb_spo[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/WRA_ctl0/we_Bt" type="logic">
+      <obj_property name="ElementShortName">we_Bt</obj_property>
+      <obj_property name="ObjectShortName">we_Bt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/WRA_ctl0/a_Gt" type="array">
+      <obj_property name="ElementShortName">a_Gt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">a_Gt[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/WRA_ctl0/a_Bt" type="array">
+      <obj_property name="ElementShortName">a_Bt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">a_Bt[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/WRA_ctl0/NInch_D_PInch_cnt" type="array">
+      <obj_property name="ElementShortName">NInch_D_PInch_cnt[6:0]</obj_property>
+      <obj_property name="ObjectShortName">NInch_D_PInch_cnt[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/WRA_ctl0/Nouch_D_Pouch_cnt" type="array">
+      <obj_property name="ElementShortName">Nouch_D_Pouch_cnt[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Nouch_D_Pouch_cnt[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/WRA_ctl0/NslideH_cnt" type="array">
+      <obj_property name="ElementShortName">NslideH_cnt[8:0]</obj_property>
+      <obj_property name="ObjectShortName">NslideH_cnt[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Buffer_Exchanger0/NInch_D_PInch_cnt_5d" type="array">
+      <obj_property name="ElementShortName">NInch_D_PInch_cnt_5d[6:0]</obj_property>
+      <obj_property name="ObjectShortName">NInch_D_PInch_cnt_5d[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Buffer_Exchanger0/Nouch_D_Pouch_cnt_5d" type="array">
+      <obj_property name="ElementShortName">Nouch_D_Pouch_cnt_5d[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Nouch_D_Pouch_cnt_5d[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Buffer_Exchanger0/NslideH_cnt_5d" type="array">
+      <obj_property name="ElementShortName">NslideH_cnt_5d[8:0]</obj_property>
+      <obj_property name="ObjectShortName">NslideH_cnt_5d[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/UpV_Accumu1_N_en" type="logic">
+      <obj_property name="ElementShortName">UpV_Accumu1_N_en</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_N_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Buffer_Exchanger0/ex_we" type="array">
+      <obj_property name="ElementShortName">ex_we[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_we[16:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Buffer_Exchanger0/ex_addr" type="array">
+      <obj_property name="ElementShortName">ex_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_addr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/AtUVA_avgPool" type="array">
+      <obj_property name="ElementShortName">AtUVA_avgPool[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUVA_avgPool[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans2/AtUVA_avgPool" type="array">
+      <obj_property name="ElementShortName">AtUVA_avgPool[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUVA_avgPool[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans3/AtUVA_avgPool" type="array">
+      <obj_property name="ElementShortName">AtUVA_avgPool[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUVA_avgPool[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans4/AtUVA_avgPool" type="array">
+      <obj_property name="ElementShortName">AtUVA_avgPool[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUVA_avgPool[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider80">
+      <obj_property name="label">Test</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/AtUpVt11_" type="array">
+      <obj_property name="ElementShortName">AtUpVt11_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt11_[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/AtUpVt12_" type="array">
+      <obj_property name="ElementShortName">AtUpVt12_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt12_[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/AtUpVt21_" type="array">
+      <obj_property name="ElementShortName">AtUpVt21_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt21_[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/AtUpVt22_" type="array">
+      <obj_property name="ElementShortName">AtUpVt22_[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt22_[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/AtUpVt11" type="array">
+      <obj_property name="ElementShortName">AtUpVt11[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt11[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/AtUpVt12" type="array">
+      <obj_property name="ElementShortName">AtUpVt12[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt12[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/AtUpVt21" type="array">
+      <obj_property name="ElementShortName">AtUpVt21[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt21[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/AtUpVt22" type="array">
+      <obj_property name="ElementShortName">AtUpVt22[12:0]</obj_property>
+      <obj_property name="ObjectShortName">AtUpVt22[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group113" type="group">
+      <obj_property name="label">upv</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/UpV11" type="array">
+         <obj_property name="ElementShortName">UpV11[10:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV11[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/UpV12" type="array">
+         <obj_property name="ElementShortName">UpV12[10:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV12[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/UpV13" type="array">
+         <obj_property name="ElementShortName">UpV13[10:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV13[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/UpV14" type="array">
+         <obj_property name="ElementShortName">UpV14[10:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV14[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/UpV21" type="array">
+         <obj_property name="ElementShortName">UpV21[10:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV21[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/UpV22" type="array">
+         <obj_property name="ElementShortName">UpV22[10:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV22[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/UpV23" type="array">
+         <obj_property name="ElementShortName">UpV23[10:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV23[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/UpV24" type="array">
+         <obj_property name="ElementShortName">UpV24[10:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV24[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/UpV31" type="array">
+         <obj_property name="ElementShortName">UpV31[10:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV31[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/UpV32" type="array">
+         <obj_property name="ElementShortName">UpV32[10:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV32[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/UpV33" type="array">
+         <obj_property name="ElementShortName">UpV33[10:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV33[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/UpV34" type="array">
+         <obj_property name="ElementShortName">UpV34[10:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV34[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/UpV41" type="array">
+         <obj_property name="ElementShortName">UpV41[10:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV41[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/UpV42" type="array">
+         <obj_property name="ElementShortName">UpV42[10:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV42[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/UpV43" type="array">
+         <obj_property name="ElementShortName">UpV43[10:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV43[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/WRA_TOP_T/WRA_Top/Output_Trans1/UpV44" type="array">
+         <obj_property name="ElementShortName">UpV44[10:0]</obj_property>
+         <obj_property name="ObjectShortName">UpV44[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumulator1/UpV_Accumu1_16_1" type="array">
+      <obj_property name="ElementShortName">UpV_Accumu1_16_1[10:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_16_1[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumulator1/UpV_Accumu1_16_2" type="array">
+      <obj_property name="ElementShortName">UpV_Accumu1_16_2[10:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_16_2[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumulator1/UpV_Accumu1_16_3" type="array">
+      <obj_property name="ElementShortName">UpV_Accumu1_16_3[10:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_16_3[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumulator1/UpV_Accumu1_16_4" type="array">
+      <obj_property name="ElementShortName">UpV_Accumu1_16_4[10:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_16_4[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumulator1/UpV_Accumu1_16_5" type="array">
+      <obj_property name="ElementShortName">UpV_Accumu1_16_5[10:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_16_5[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumulator1/UpV_Accumu1_16_6" type="array">
+      <obj_property name="ElementShortName">UpV_Accumu1_16_6[10:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_16_6[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumulator1/UpV_Accumu1_16_7" type="array">
+      <obj_property name="ElementShortName">UpV_Accumu1_16_7[10:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_16_7[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumulator1/UpV_Accumu1_16_8" type="array">
+      <obj_property name="ElementShortName">UpV_Accumu1_16_8[10:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_16_8[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumulator1/UpV_Accumu1_16_9" type="array">
+      <obj_property name="ElementShortName">UpV_Accumu1_16_9[10:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_16_9[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumulator1/UpV_Accumu1_16_10" type="array">
+      <obj_property name="ElementShortName">UpV_Accumu1_16_10[10:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_16_10[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumulator1/UpV_Accumu1_16_11" type="array">
+      <obj_property name="ElementShortName">UpV_Accumu1_16_11[10:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_16_11[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumulator1/UpV_Accumu1_16_12" type="array">
+      <obj_property name="ElementShortName">UpV_Accumu1_16_12[10:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_16_12[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumulator1/UpV_Accumu1_16_13" type="array">
+      <obj_property name="ElementShortName">UpV_Accumu1_16_13[10:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_16_13[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumulator1/UpV_Accumu1_16_14" type="array">
+      <obj_property name="ElementShortName">UpV_Accumu1_16_14[10:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_16_14[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumulator1/UpV_Accumu1_16_15" type="array">
+      <obj_property name="ElementShortName">UpV_Accumu1_16_15[10:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_16_15[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumulator1/UpV_Accumu1_16_16" type="array">
+      <obj_property name="ElementShortName">UpV_Accumu1_16_16[10:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV_Accumu1_16_16[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/Channel_Accumu1_16_1/UpV" type="array">
+      <obj_property name="ElementShortName">UpV[703:0]</obj_property>
+      <obj_property name="ObjectShortName">UpV[703:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/BtInB_RAMspo" type="array">
+      <obj_property name="ElementShortName">BtInB_RAMspo[511:0]</obj_property>
+      <obj_property name="ObjectShortName">BtInB_RAMspo[511:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/GFGt1" type="array">
+      <obj_property name="ElementShortName">GFGt1[511:0]</obj_property>
+      <obj_property name="ObjectShortName">GFGt1[511:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/GFGt_RAMspo" type="array">
+      <obj_property name="ElementShortName">GFGt_RAMspo[2047:0]</obj_property>
+      <obj_property name="ObjectShortName">GFGt_RAMspo[2047:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/WRA_TOP_T/WRA_Top/WRA_ctl0/a_Gt" type="array">
+      <obj_property name="ElementShortName">a_Gt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">a_Gt[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

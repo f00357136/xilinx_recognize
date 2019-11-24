@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="DataFIFO_synth_1" LaunchDir="C:/Andrew/Mobile Work/ARM Game/WRA_NOCORE/V3/V3.runs/DataFIFO_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

@@ -1,0 +1,58 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Wed Mar 13 14:44:20 2019
+| Host         : DESKTOP-A8I5KHV running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mult'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of mult (xilinx.com:ip:mult_gen:12.0 (Rev. 14)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Wed Mar 13 14:44:19 2019
+| Host         : DESKTOP-A8I5KHV running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_gfgt'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of blk_mem_gfgt (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
+| Date         : Wed Mar 13 14:44:18 2019
+| Host         : DESKTOP-A8I5KHV running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of blk_mem (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 1)) to Vivado generation flows.
+
